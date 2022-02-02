@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tables Practice</title>
+	<style type="text/css">
+		/* body {
+			Margin: 0;
+			padding: 0;
+		} */
+		
+		table {
+			font-family: Arial, Helvetica, sans-serif;
+			/* border-spacing: 0; */
+			border-collapse: collapse;
+			margin: 0 auto;
+		}
+
+		th, td {
+			padding: 10px;
+			border: 1px solid black;
+		}
+
+		th {
+			background-color: #ee0034;
+			color: #fff;
+		}
+
+		td {
+			background-color: #fafafa;
+			text-align: center;
+		}
+
+		tfoot {
+			text-align: center;
+			font-weight: bold;
+		}
+
+		@media screen and (max-width: 600px) { 
+		}
+		@media screen and (max-width: 400px) { 
+		}
+	</style>
+</head>
+<body>
+
+    <!-- Train schedule -->
+
+    <!-- Table Tag -->
+    <table>
+
+		<!-- Provides a caption for the table -->
+		<caption>Train Schedule - Westport to Grand Central</caption>
+
+
+		<!-- Semantic html heading to define a table header -->
+		<thead>
+
+			<!-- Table row, all content on the row is enclosed in this tag -->
+			<tr>
+				<!-- Table header, this row includes the headers for a table  -->
+				<th>Origin</th>
+				<th>Destination</th>
+				<th>Depature Times</th>
+				<th>Arrival Times</th>
+			</tr>
+
+		</thead>
+
+		<tbody>
+
+			<tr>
+				<!-- Table data, this row includes all the data for a table  -->
+				<td>Westport, CA</td>
+				<td>Grand Central Station</td>
+				<td>8:03 AM</td>
+				<td>9:24 AM</td>
+			</tr>
+	
+			<tr>
+				<!-- Table data, this row includes all the data for a table  -->
+				<td>Westport, CA</td>
+				<td>Grand Central Station</td>
+				<td>8:26 AM</td>
+				<td>9:53 AM</td>
+			</tr>
+	
+			<tr>
+				<!-- Table data, this row includes all the data for a table  -->
+				<td>Westport, CA</td>
+				<td>Grand Central Station</td>
+				<td>9:26 AM</td>
+				<td>10:53 AM</td>
+			</tr>
+	
+			<tr>
+				<!-- Table data, this row includes all the data for a table  -->
+				<td>Westport, CA</td>
+				<td>Grand Central Station</td>
+				<td>10:26 AM</td>
+				<td>11:50 AM</td>
+			</tr>
+	
+			<tr>
+				<!-- Table data, this row includes all the data for a table  -->
+				<td>Westport, CA</td>
+				<td>Grand Central Station</td>
+				<td>10:26 AM</td>
+				<td>12:50 AM</td>
+			</tr>
+
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td colspan="4">MetroNorth Commuter Railroad</td>
+			</tr>
+		</tfoot>
+ 
+
+    </table>
+
+
+
+</body>
+</html>
